@@ -10,15 +10,17 @@ pipeline {
                         }
                      }
                   }
-                   stage('maven build'){
+                   stage('unit Testing'){
             
                       steps{
                 
                        script{
                     
-                         sh 'mvn clean install'
+                         sh 'mvn test'
                        }
+                          
                       }
+                       
                    }
               
     }
