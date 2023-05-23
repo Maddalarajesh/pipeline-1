@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repo') {
+        stage('Git checkout') {
             git branch: 'main', url: 'https://github.com/Maddalarajesh/pipeline-1.git'
             steps {
                 echo "We're not doing anything particularly special here."
