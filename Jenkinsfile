@@ -16,7 +16,7 @@ pipeline {
                 
                        script{
                     
-                         sh 'mvn test'
+                         sh 'test'
                        }
                       }
                    }
