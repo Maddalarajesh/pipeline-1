@@ -1,9 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Example') {
+        stage('Git checkout') {
+            
             steps {
-                echo 'this is my first pipeline'
+                
             }
         }
     }
