@@ -10,13 +10,13 @@ pipeline {
                         }
                      }
                   }
-                   stage('UNIT testing'){
+                   stage('maven build'){
             
                       steps{
                 
                        script{
                     
-                         sh 'test'
+                         sh 'mvn clean install'
                        }
                       }
                    }
