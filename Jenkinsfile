@@ -7,6 +7,15 @@ pipeline {
                     cleanWs ()
                 }
             }
+              stages {
+        
+                  stage('Git Checkout'){
+            
+                     steps{
+                
+                        script{
+                            
+            
         }
     }
 }
