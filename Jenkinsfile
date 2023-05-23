@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage('Git checkout') {
-            
-            steps {
+               git 'https://github.com/Maddalarajesh/pipeline-1.git'
+           steps {
                 
             }
         }
